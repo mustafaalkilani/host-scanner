@@ -81,7 +81,7 @@ def scan():
     timer = QTimer()
     timer.timeout.connect(Incress_Step)
 
-    timer.start(161)
+    timer.start(10)
     sec_window.setStandardButtons(QMessageBox.Cancel)
     sec_window.setStyleSheet('Background: #161219; color:white;')
     sec_window.setLayout(QVBoxLayout())
